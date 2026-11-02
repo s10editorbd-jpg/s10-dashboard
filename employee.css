@@ -1,0 +1,213 @@
+/* S10 PORTAL - EMPLOYEE / CS PAGE */
+
+/* ================= Search ================= */
+
+.search-box{
+
+    position:relative;
+
+    margin-bottom:20px;
+
+}
+
+.search-box input{
+
+    width:100%;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:12px;
+
+    padding:12px 15px 12px 42px;
+
+    font-size:15px;
+
+}
+
+.search-box i{
+
+    position:absolute;
+
+    left:15px;
+
+    top:14px;
+
+    color:#777;
+
+}
+
+/* ================= Employee List ================= */
+
+.employee-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+}
+
+.employee{
+
+    background:#fff;
+
+    color:#222;
+
+    border-radius:12px;
+
+    padding:15px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.10);
+
+}
+
+.employee:hover{
+
+    background:#e8f2ff;
+
+    transform:translateX(5px);
+
+}
+
+.employee h4{
+
+    font-size:15px;
+
+    margin-bottom:5px;
+
+}
+
+.employee p{
+
+    color:#777;
+
+    font-size:13px;
+
+}
+
+/* ================= Brand ================= */
+
+.title{
+
+    color:#000;
+
+    margin-bottom:15px;
+
+}
+
+.brand-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+
+    gap:15px;
+
+}
+
+.brand-card{
+
+    background:#fff;
+
+    border-radius:15px;
+
+    padding:15px;
+
+    min-height:110px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+.brand-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 6px 20px rgba(0,0,0,.12);
+
+}
+
+.brand-name{
+
+    font-size:17px;
+
+    font-weight:700;
+
+    color:#0d47a1;
+
+    margin-bottom:8px;
+
+}
+
+.brand-value{
+
+    font-size:18px;
+
+    font-weight:500;
+
+    word-break:break-word;
+
+}
+
+.active-brand{
+
+    border:2px solid #15c54a;
+
+    background: linear-gradient(
+        to top,
+        
+        #ffffff,
+        #c0ede6,
+        #ffffff,
+        #c0ede6,
+        #ffffff,
+        #c0ede6,
+        #ffffff,
+        #c0ede6,
+        #ffffff,
+        #c0ede6,
+        #ffffff
+    );
+
+    background-size: 200% 200%;
+    animation: gradientMove 60s ease infinite;
+}
+
+@keyframes gradientMove{
+    0%{
+        background-position: 0% 0%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0% 0%;
+    }
+
+}
+
+.inactive-brand{
+
+    border:2px solid #ff4d4d;
+
+    background:#fff5f5;
+
+}
+

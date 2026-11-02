@@ -1,0 +1,107 @@
+/* S10 PORTAL - LINKS */
+
+/* ================= Links ================= */
+
+.link-card{
+
+    padding:18px;
+
+    border-radius:12px;
+
+    margin-bottom:15px;
+
+    transition:.3s;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+
+}
+
+.link-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+
+}
+
+/* Colors */
+.FN{background:#b3f5fd;}
+.NF{background:#d9d2e9;}
+.GEINE{background:#1976D2;}
+.Super{background:#cf0067;}
+.Extension{background:#0620f2;}
+.Darazplay{background: linear-gradient(135deg,#022C22,#065F46,#14532D);
+color: #FFFFFF;}
+.KV8{background:#5d2b08;}
+.Heybaji{background:#0075cf;}
+.Jeetbangla{background:#ee863d;}
+.Jeetway{background: linear-gradient(135deg,#0F172A,#334155,#1E293B);
+color: #FFFFFF;}
+.Superbaji{background: linear-gradient(135deg,#0C4A6E,#1D4ED8,#312E81);
+color: #FFFFFF;}
+.SBJ66{background:#146067;}
+.BetJDB{background: #18181B;
+color: #FACC15;}
+.BN88{background: linear-gradient(135deg,#042F2E,#0F766E,#164E63);
+color: #FFFFFF;}
+.BDVegas{background: linear-gradient(135deg,#2E1065,#581C87,#312E81);
+color: #FFFFFF;}
+.CPC88
+{background:#2ec5d3;
+color:#ffff00;
+}
+.Deshi777{background: linear-gradient(135deg,#450A0A,#991B1B,#431407);
+color: #FFFFFF;}
+.BetVisa{background:#0288D1;}
+.Wicket{background:#ff871a;}
+.Velki{background:#6D4C41;}
+.Saba{background:#455A64;}
+.Microsoft{background:#001776;}
+.Outlook{background:#8E24AA;}
+.Agent{background:#039BE5;}
+.Tunepay{background:#ff0000;}
+.Domain{background:#0620f2;}
+.Priority{background:#3fa9a2;}
+.addabet{background:#003c6b;}
+.BETBABU{background:#701f04;}
+.BETKASH{background:#78727e;}
+.BetJeet{background:#ff785a;}
+.Jitbex{background:#19aefe;}
+.Royale777{background:#454545;}
+.BETKRIKYA{background:#fee300;}
+.ICCWIN{background:#0b2270;}
+.JAYAWIN{background:#5d8988;}
+
+.link-card a{
+
+    color:#fff;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    font-size:16px;
+
+    display:block;
+
+}
+
+.LCSOP{background:#1976D2;}
+.TGSOP{background:#146067;}
+
+.foot{background:#1976D2;}
+.cric{background:#146067;}
+
+.black{background:#000000;}
+.Indigo{background:#312E81;}
+.Dark-Green{background:#14532D;}
+.Purple{background:#581C87;}
+
+
+
+.Blue-Purple{background: linear-gradient(135deg,#172554,#4338CA,#701A75);
+color: #FFFFFF;}
+
+
+
+

@@ -1,0 +1,586 @@
+/* S10 PORTAL - RESPONSIVE RULES (LOAD LAST) */
+
+/* ================= Responsive ================= */
+
+@media(max-width:900px){
+
+.container{
+
+    flex-direction:column;
+
+}
+
+.sidebar{
+
+    width:100%;
+    height:auto;
+
+}
+
+.content{
+
+    padding:15px;
+
+}
+
+.profile-header{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+}
+@media(max-width:768px){
+
+.mistake-page-header{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:15px;
+}
+
+.header-badges{
+    width:100%;
+}
+
+}
+@media (max-width: 768px) {
+
+    .toggle-btn {
+        display: block;
+    }
+
+    .sidebar {
+        position: fixed;
+        left: -280px;
+        top: 0;
+        width: 280px;
+        height: 100%;
+        transition: 0.3s;
+        z-index: 999;
+    }
+
+    .sidebar.show {
+        left: 0;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+}
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .stats-grid,
+    .quick-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 768px) {
+
+    .home-topbar {
+        flex-direction: column;
+        align-items: flex-start;
+
+        padding: 15px;
+    }
+
+    .home-topbar h1 {
+        font-size: 21px;
+    }
+
+    .home-topbar p {
+        font-size: 10px;
+    }
+
+    .home-date {
+        width: 100%;
+        justify-content: center;
+    }
+
+
+    .home-welcome {
+        min-height: auto;
+
+        padding: 25px 20px;
+    }
+
+    .welcome-content h1 {
+        font-size: 23px;
+    }
+
+    .welcome-content p {
+        font-size: 10px;
+    }
+
+    .welcome-icon {
+        display: none;
+    }
+
+
+    .stats-grid,
+    .quick-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+
+        gap: 9px;
+    }
+
+
+    .stat-card {
+        min-height: 75px;
+
+        padding: 11px;
+    }
+
+    .stat-icon {
+        width: 36px;
+        height: 36px;
+
+        margin-right: 8px;
+
+        font-size: 14px;
+    }
+
+    .stat-info span {
+        font-size: 9px;
+    }
+
+    .stat-info strong {
+        font-size: 17px;
+    }
+
+
+    .quick-card {
+        min-height: 65px;
+
+        padding: 9px;
+    }
+
+    .quick-icon {
+        width: 33px;
+        height: 33px;
+
+        font-size: 12px;
+    }
+
+    .quick-card h3 {
+        font-size: 10px;
+    }
+
+    .quick-card p {
+        font-size: 8px;
+    }
+
+    .quick-card > i:last-child {
+        display: none;
+    }
+
+
+    .home-section-title h2 {
+        font-size: 13px;
+    }
+
+
+    .notice-card {
+        padding: 12px;
+    }
+
+    .notice-card p {
+        font-size: 9px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .content {
+        padding: 12px;
+    }
+
+    .home-topbar h1 {
+        font-size: 19px;
+    }
+
+    .home-welcome {
+        padding: 22px 17px;
+    }
+
+    .welcome-content h1 {
+        font-size: 20px;
+    }
+
+    .welcome-content p {
+        font-size: 9px;
+    }
+
+    .home-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .stats-grid,
+    .quick-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .home-footer {
+        flex-direction: column;
+        gap: 7px;
+    }
+
+}
+/* ===============================
+   TABLET
+=============================== */
+
+@media(max-width:1100px){
+
+    .home-mistake-grid{
+
+        grid-template-columns:
+            repeat(3,minmax(0,1fr));
+
+    }
+
+}
+
+
+/* ===============================
+/* ===============================
+   MOBILE
+=============================== */
+
+@media(max-width:768px){
+
+    .home-mistake-header{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+    }
+
+    .home-mistake-month{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+    .home-mistake-grid{
+
+        grid-template-columns:
+            repeat(2,minmax(0,1fr));
+
+    }
+
+}
+
+/* ===============================
+   SMALL MOBILE
+=============================== */
+
+@media(max-width:480px){
+
+    .home-mistake-section{
+
+        padding:12px;
+
+    }
+
+    .home-mistake-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+/* =========================
+   TABLET
+========================= */
+
+@media(max-width:1100px) {
+
+    .mistake-summary-stats {
+
+        grid-template-columns:
+            repeat(2,1fr);
+    }
+
+    .mistake-monthly-grid {
+
+        grid-template-columns:
+            repeat(3,1fr);
+    }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px) {
+
+    .mistake-summary-header {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+    .mistake-summary-filters {
+
+        width: 100%;
+    }
+
+    .mistake-summary-filters select {
+
+        flex: 1;
+
+        width: 50%;
+    }
+
+    .mistake-summary-stats {
+
+        grid-template-columns:
+            repeat(2,1fr);
+    }
+
+    .mistake-summary-highlight {
+
+        grid-template-columns: 1fr;
+    }
+
+    .mistake-monthly-grid {
+
+        grid-template-columns:
+            repeat(2,1fr);
+    }
+
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media(max-width:480px) {
+
+    .mistake-summary-section {
+
+        padding: 13px;
+    }
+
+    .mistake-summary-stats {
+
+        grid-template-columns: 1fr;
+    }
+
+    .mistake-monthly-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media(max-width:1100px){
+
+    .mistake-overview-stats{
+
+        grid-template-columns:
+            repeat(2,1fr);
+
+    }
+
+    .mistake-overview-controls{
+
+        grid-template-columns:
+            repeat(2,1fr);
+
+    }
+
+}
+
+
+@media(max-width:700px){
+
+    .mistake-overview-controls{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .mistake-overview-stats{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .mistake-overview-chart-card{
+
+        padding:15px;
+
+        border-radius:12px;
+
+    }
+
+
+    .mistake-chart-wrapper{
+
+        height:300px;
+
+    }
+
+
+    .chart-header{
+
+        align-items:flex-start;
+
+        flex-direction:column;
+
+        gap:8px;
+
+    }
+
+
+    .chart-header h3{
+
+        font-size:16px;
+
+    }
+
+}
+
+
+/* =========================================================
+   SMALL PHONE
+========================================================= */
+
+@media(max-width:450px){
+
+    .overview-stat{
+
+        min-height:85px;
+
+        padding:15px;
+
+    }
+
+
+    .overview-stat strong{
+
+        font-size:24px;
+
+    }
+
+
+    .mistake-chart-wrapper{
+
+        height:260px;
+
+    }
+
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width:700px){
+
+    .subject-breakdown-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .mistake-subject-breakdown{
+
+        padding:16px;
+
+    }
+
+}
+
+
+
+
+
+
+/* NOTICE */
+#homePage .notice-card > div:last-child {
+    flex: 1;
+    text-align: center !important;
+}
+
+/* MISTAKE SUBJECT CARDS */
+#homePage .home-mistake-subject,
+#homePage .home-mistake-label {
+    text-align: center !important;
+}
+
+
+#homePage .summary-stat > div:last-child {
+    flex: 1;
+    text-align: center !important;
+}
+
+#homePage .summary-highlight-card {
+    text-align: center !important;
+}
+
+/* MONTHLY PERFORMANCE */
+#homePage .month-performance-card {
+    text-align: center !important;
+}
+
+#homePage .month-rating {
+    justify-content: center;
+}
+
+/* MISTAKE OVERVIEW */
+#homePage .overview-stat {
+    text-align: center !important;
+}
+
+#homePage .overview-filter-group label {
+    justify-content: center;
+}
+
+#homePage .overview-filter-group select {
+    text-align: center;
+    text-align-last: center;
+}
+
+/* SUBJECT BREAKDOWN */
+#homePage .subject-breakdown-header {
+    text-align: center !important;
+}
+
+#homePage .subject-breakdown-header h3 {
+    justify-content: center;
+}
